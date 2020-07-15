@@ -23,4 +23,4 @@ let discount = Math.floor(Math.random() * 100); //випадкова знижк�
 let afterDiscount = Number(fruitSum - (fruitSum/100 * discount)).toFixed(2); //сума до сплати
 let profit = afterDiscount - fruitSum/2;
 console.log('Сума до сплати, з врахуванням знижки ' + discount + '%, ' + afterDiscount);
-console.log('Чистий прибуток: ' + Math.floor(profit) );
+console.log('Чистий прибуток грн: ' + Math.floor(profit) );
