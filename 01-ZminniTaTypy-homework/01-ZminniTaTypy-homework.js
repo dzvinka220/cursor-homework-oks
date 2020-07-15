@@ -17,7 +17,7 @@ console.log('Сума всіх товарів є парним числом? ' + 
 let clientCash = 500;
 console.log('Якщо клієнт платить за товари ' + clientCash + 'грн, його решта складає ' + (clientCash - fruitSum) );
 let averagePrice = fruitSum/3;
-console.log('Середнє значення цін, округлене до сотих: '  +  parseInt(averagePrice.toFixed(2)) );
+console.log('Середнє значення цін, округлене до сотих: '  +  Number(averagePrice.toFixed(2)) );
 
 let discount = Math.floor(Math.random() * 100); //випадкова знижка
 let afterDiscount = Number(fruitSum - (fruitSum/100 * discount)).toFixed(2); //сума до сплати
