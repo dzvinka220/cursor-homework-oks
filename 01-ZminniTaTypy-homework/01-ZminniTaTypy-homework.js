@@ -1,6 +1,6 @@
-let banana = 15.678;
-let coconut = 123.965;
-let pineapple = 90.2345;
+const banana = 15.678;
+const coconut = 123.965;
+const pineapple = 90.2345;
 
 console.log('Максимальне значення: ' + Math.max(banana, coconut, pineapple));
 console.log('Мінімальне значення: ' + Math.min(banana, coconut, pineapple));
