@@ -15,19 +15,19 @@ do {
   } while (!Number.isInteger(numbM) || numbM === 0);
   console.log("Перше число " + numbN);
   console.log("Друге число " + numbM);
-//console.log(Number.isInteger(numbN));
-//console.log(Number.isInteger(numbM));
 
 oddNumb = confirm ("Пропускати парні?");
 console.log("Пропуск парних чисел " + oddNumb);
 
 let sumI = 0;
-let i = 0;
-for (i = numbN; i <= numbM; i++){
-  if (oddNumb !== false && i % 2 == 0) continue;
-  else{ sumI = sumI + i; 
-    //console.log(sumI);
-  }
+let min = Math.min(numbN,numbM);
+let max = Math.max(numbN,numbM);
+
+
+for (min; min <= max; min++){
+    if (oddNumb !== false && min % 2 == 0) continue;
+    else{ sumI = sumI + min; 
+    }
 };
 
 if(oddNumb === false){
