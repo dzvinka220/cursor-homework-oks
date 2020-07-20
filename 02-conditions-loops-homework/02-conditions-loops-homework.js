@@ -30,5 +30,10 @@ for (i = numbN; i <= numbM; i++){
   }
 };
 
+if(oddNumb === false){
 console.log(`Сума чисел від  ${numbN} до ${numbM} = ${sumI}`);
-alert(`Сума чисел від  ${numbN} до ${numbM} = ${sumI}`);
+alert(`Сума чисел від  ${numbN} до ${numbM} = ${sumI}`);}
+else{
+    console.log(`Сума непарних чисел від  ${numbN} до ${numbM} = ${sumI}`);
+alert(`Сума непарних чисел від  ${numbN} до ${numbM} = ${sumI}`);
+}
