@@ -31,7 +31,6 @@ function getPowerNumber (number, power){
         total = numbArr.reduce( ( total, amount ) => total * amount );
         total = 1/total;
     }}
-  // console.log(total);
   return `2. ${number} в степені   ${power}  =  ${total}`;
   }
 console.log(getPowerNumber(5, -2));
@@ -51,7 +50,7 @@ function upperLetter (str){
   }
   console.log(getRandomNumber(1, 10)); 
 
-  //8. Створіть функцію генерації випадкового паролю (тільки числа), довжина встановлюється користувачем або по замовчуванню = 8 символам.
+//8. Створіть функцію генерації випадкового паролю (тільки числа), довжина встановлюється користувачем або по замовчуванню = 8 символам.
   function getRandomPassword(size){
     let password = [];
     let i=0;
