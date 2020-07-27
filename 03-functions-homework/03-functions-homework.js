@@ -4,7 +4,7 @@ function getMaxDigit(number){
     number = number.toString();
     let numberArr = Array.from(number);
       numberArr.sort();
-        return '1. Найбільша цифра в ' + number + ' = ' + numberArr.pop();        
+      return '1. Найбільша цифра в ' + number + ' = ' + numberArr.pop();        
     }
     console.log(getMaxDigit(9805674321));
 
