@@ -65,6 +65,21 @@ function upperLetter (str){
        return `8. Випадковий пароль з ${size} чисел ${password.join('')}`;
    }
    console.log(getRandomPassword());
+
+   //10. Створіть функцію, яка перевіряє, чи є слово паліндромом. 
+   function isPalyndrom(someText){
+    let result = someText == someText
+         .split("")
+         .reverse()
+         .join("");
+     if (result == true){
+      return `10. ${someText} - паліндром `
+     }
+     else{
+        return `10. ${someText} - не паліндром `
+      }
+  } 
+   console.log( isPalyndrom("мадам") );
   
 //11.Створіть функцію, яка видалить з речення букви, які зустрічаються більше 1 разу. 
 function  deleteDuplicateLetter(str) {
