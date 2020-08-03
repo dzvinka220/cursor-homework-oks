@@ -6,7 +6,7 @@ const getRandomArray = (min, max, arrLength) => {
   } return `масив випадкових чисел в діапазоні від ${min} до ${max} з довжиною ${arrLength}: 
 ${randomArr}`;
   } 
-  // console.log(`Функція №1: ${getRandomArray(1, 100, 15)}`); 
+  console.log(`Функція №1: ${getRandomArray(1, 100, 15)}`); 
   
 
 
@@ -36,7 +36,7 @@ ${randomArr}`;
   return `мода елементів масиву ${numbers} 
 рівна ${mode}`;
   }
-  // console.log(`Функція 2: ${getMode(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2, 9, 2.5, 2.5, 2.5, 2.5)}`)
+  console.log(`Функція 2: ${getMode(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2, 9, 2.5, 2.5, 2.5, 2.5)}`)
   
 
   
@@ -48,7 +48,7 @@ ${randomArr}`;
       return `cереднє арифметичне значення елементів масиву ${numbers} 
 рівне ${average}`;
   }
-  // console.log(`Функція 2: ${getAverage(1, 2, 3, 4, 5, 5.5)}`)
+  console.log(`Функція 2: ${getAverage(1, 2, 3, 4, 5, 5.5)}`)
   
 
 
@@ -72,7 +72,7 @@ ${randomArr}`;
       return `медіана елементів масиву ${numbers} 
 рівна ${median}`;
   }
-  // console.log(`Функція 4: ${getMedian(10, 6, 8, 7, 3,2,4,1, 5, 20, 2.5)}`)
+  console.log(`Функція 4: ${getMedian(10, 6, 8, 7, 3,2,4,1, 5, 20, 2.5)}`)
   
 
 
@@ -81,7 +81,7 @@ ${randomArr}`;
   const notEven = numbers.filter(number => number%2 !== 0)
       return `масив ${numbers} містить такі НЕпарні числа: ${notEven}`;
   }
-  // console.log(`Функція 5: ${filterEvenNumbers(1, 2, 3, 4, 5, 6, 7)}`)
+  console.log(`Функція 5: ${filterEvenNumbers(1, 2, 3, 4, 5, 6, 7)}`)
   
 
 
@@ -93,7 +93,7 @@ ${randomArr}`;
   const count = positive.length;
       return `кількість чисел більших за 0 в масиві ${numbers} дорівнює ${count}`;
   }
-  // console.log(`Функція 6: ${countPositiveNumbers(1, 0, -2, -3, 4, -5, 6, 7)}`)
+  console.log(`Функція 6: ${countPositiveNumbers(1, 0, -2, -3, 4, -5, 6, 7)}`)
   
 
 
@@ -102,7 +102,7 @@ ${randomArr}`;
   const divideFive = numbers.filter(number => number%5 == 0)
       return `масив ${numbers} містить такі числа кратні п'яти: ${divideFive}`;
   }
-  // console.log(`Функція 7: ${getDividedByFive(1, 15, 3, 4, 5, 6, 10)}`)
+  console.log(`Функція 7: ${getDividedByFive(1, 15, 3, 4, 5, 6, 10)}`)
   
 
 
@@ -126,7 +126,7 @@ ${randomArr}`;
       return `фраза ${string} після проходження через функцію цензури буде виглядати як: ${cleanString.join(" ")}
 Функція не пропускає такі елементи: ${badWords}`;
   }
-  // console.log(`Функція 8: ${replaceBadWords("Oh Fuck you faggot shitty fucking shit", ["fuck" , "shit"])}`)
+  console.log(`Функція 8: ${replaceBadWords("Oh Fuck you faggot shitty fucking shit", ["fuck" , "shit"])}`)
   
 
 
@@ -148,5 +148,5 @@ ${randomArr}`;
      }
   return `після розбивання на склади слово ${string} буде виглядати як: ${syllables}`;
   }
-  //console.log(`Функція 9: ${divideByThree("A bab Al a M  aga")}`)
+  console.log(`Функція 9: ${divideByThree("A bab Al a M  aga")}`)
   
