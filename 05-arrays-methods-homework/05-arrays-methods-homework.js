@@ -48,7 +48,7 @@ ${randomArr}`;
       return `cереднє арифметичне значення елементів масиву ${numbers} 
 рівне ${average}`;
   }
-  console.log(`Функція 2: ${getAverage(1, 2, 3, 4, 5, 5.5)}`)
+  console.log(`Функція 3: ${getAverage(1, 2, 3, 4, 5, 5.5)}`)
   
 
 
@@ -72,7 +72,7 @@ ${randomArr}`;
       return `медіана елементів масиву ${numbers} 
 рівна ${median}`;
   }
-  console.log(`Функція 4: ${getMedian(10, 6, 8, 7, 3,2,4,1, 5, 20, 2.5)}`)
+  console.log(`Функція 4: ${getMedian(10, 6, 8, 7, 3, 2, 4, 1, 5, 20, 2.5)}`)
   
 
 
