@@ -6,7 +6,7 @@ const getRandomArray = (min, max, arrLength) => {
   } return `масив випадкових чисел в діапазоні від ${min} до ${max} з довжиною ${arrLength}: 
 ${randomArr}`;
   } 
-  console.log(`Функція №1: ${getRandomArray(1, 100, 15)}`); 
+  console.log(`Функція 1: ${getRandomArray(1, 100, 15)}`); 
   
 
 
