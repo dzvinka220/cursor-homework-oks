@@ -28,20 +28,18 @@ const litva = { tax: 0.15, middleSalary: 1509, vacancies: 1114, country: 'Litva'
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     function getMySalary (){
-        let This = this;
-        setInterval(function(){
+        setInterval(() => {
             let calcSalary = Math.ceil(Math.random() * 500 + 1500);
-            let calcTaxes = This.tax * calcSalary;
+            let calcTaxes = this.tax * calcSalary;
             let calcProfit = calcSalary-calcTaxes;
-                let obj = {
+                let salaryInfo = {
                     salary: calcSalary,
                     taxes: calcTaxes,
                     profit: calcProfit,
                 }
-            return console.log(JSON.stringify(obj))
+            return console.log(salaryInfo)
         }, 10000);
     }
      getMySalary.call(ukraine)
      
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
