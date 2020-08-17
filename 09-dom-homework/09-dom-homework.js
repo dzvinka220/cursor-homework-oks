@@ -17,7 +17,7 @@ function createTable(){
 function setColor(){
   let box = document.querySelectorAll("td");
   box.forEach(element => {
-    element.setAttribute("style", `background: ${generateColor()}; border: 9px dotted ${generateColor()}; height = 50 px;`);
+    element.setAttribute("style", `background: ${generateColor()}; border: 3px dotted black; opacity: 0.77; `);
   });
   return box;
 }  
