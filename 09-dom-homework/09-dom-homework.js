@@ -1,19 +1,19 @@
 function generateColor() {
-    return '#' + Math.floor(Math.random()*16777215).toString(16) // 16777215.toString(16)==ffffff
-  };
+  return '#' + Math.floor(Math.random()*16777215).toString(16) // 16777215.toString(16)==ffffff
+};
 
 function createTable(){
-    const table = document.createElement("table");
-    document.body.append(table);
+  const table = document.createElement("table");
+  document.body.append(table);
+  for (let i=0; i<5; i++){
+    let tr = document.createElement("tr");
+    table.append(tr);
     for (let i=0; i<5; i++){
-      let tr = document.createElement("tr");
-      table.append(tr);
-      for (let i=0; i<5; i++){
-        let td = document.createElement("td");
-        tr.append(td);
-      }
+      let td = document.createElement("td");
+      tr.append(td);
     }
   }
+}
 function setColor(){
   let box = document.querySelectorAll("td");
   box.forEach(element => {
