@@ -1,0 +1,13 @@
+body {background-image: url(./img/dota.jpg)}
+.keys { background-image: url(./img/tabledota.png); background-repeat: no-repeat;  }
+
+.key {  border: solid black 2px ;   width: 88px; height: 64px;  text-align: left;    color: white;    background: 0;    text-shadow: 0;  }
+.newKey  {  border: solid greenyellow 2px; width: 88px;  height: 64px;  text-align: left;    color: white;    background: 0;    text-shadow: 0;  }
+.new {border: solid blueviolet 2px;}
+
+#Digit1 {background-image: url(./img/Clarity_icon.png); position: absolute; left: 190px; top: 400px;}
+#Digit2 {background-image: url(./img/Enchanted_Mango_icon.png); position: absolute; left: 282px; top: 400px;}
+#Digit3{background-image: url(./img/Healing_Salve_icon.png); position: absolute; left: 374px; top: 400px;}
+#KeyQ{background-image: url(./img/Tango_icon.png); position: absolute; left: 190px; top: 467px;}
+#KeyE{background-image: url(./img/Magic_Stick_icon.png); position: absolute; left: 282px; top: 467px;}
+#KeyR{background-image: url(./img/Town_Portal_Scroll_icon.png); position: absolute; left: 374px; top: 467px;}
