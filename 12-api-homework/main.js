@@ -11,7 +11,12 @@ function getInfo (){
     } 
     else document.querySelector('.planetsContainer').style.marginLeft = '50px';
 
-    return axios.get(BASE + 'films/' + document.querySelector('#filmNumber').value)
+    const config = {
+        method: "GET",
+        url: BASE + 'films/' + document.querySelector('#filmNumber').value + '/',
+        }
+    
+    return axios(config)  
     .then((res) =>{
         return displayCharacters(res.data.characters)
     })
