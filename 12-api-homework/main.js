@@ -27,8 +27,14 @@ function displayCharacters (characters){
     const container = document.querySelector('.characters');
     container.innerHTML = `<h1>Characters</h1>`
     
+    
+    
     characters.forEach(character => {
-        return axios.get(character)
+        const config = {
+            method: "GET",
+            url: character,
+            }
+        return axios(config)
         .then((res) => {
             const characterElement = document.createElement('div');
             characterElement.className = 'character';
