@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'DistantGalaxy';
+    src: url('fonts/DistantGalaxy.ttf');
+  }
+  html{
+    cursor: url(cursors/Lightsaber1.cur), default;
+  }
+  body{
+    background: url(img/back.jpg);
+    font-family: 'DistantGalaxy';
+    color:rgb(236, 233, 19);
+  }
+  label{
+    cursor: url(cursors/Lightsaber1.cur), default;
+    display: inline-block;
+  }
+  
+  .character {
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    display:block;
+    float:left;
+    align-items: flex-end;
+    background: url(img/charWall.jpg);
+    text-align: center;
+    box-shadow: 0 3px 5px 3px rgba(0,0,0,.13);
+    position: relative;
+    border: 10px ridge rgba(255, 255, 1, 0.918);
+    border-radius: 20%;
+  }
+  .characters{
+    width: 70%;
+    display: none;
+  }
+  .characterName{
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+  .characterInfo{
+    font-size: 20px;
+  }
+  .characterImage {
+  padding-top: 15px;
+  }
+  .infoButton{
+    font-size: 25px;
+    cursor: url(cursors/SABER.CUR), pointer;
+    font-family: 'DistantGalaxy';
+    background-color: rgba(91, 247, 239, 0.781);
+    color: rgb(177, 174, 174);
+    padding: 18px;
+    margin: 50px 50px 0 50px;
+    border: 10px outset rgba(255, 255, 1, 0.918);
+    border-radius: 50% 0 50% 0;
+    display: flexbox;
+    text-shadow: 1px 1px 5px rgb(25, 67, 202) ;
+  }
+  .infoButton:hover{
+    color:yellowgreen;
+    border: 10px inset rgba(255, 255, 1, 0.918);
+  }
+  .pagination:hover{
+    color:yellowgreen;
+    border: 7px inset rgba(255, 255, 1, 0.918);
+  }
+  .pagination{
+    border: 7px outset rgba(255, 255, 1, 0.918);
+    text-shadow: 1px 1px 5px rgb(25, 67, 202) ;
+    background-color: rgba(91, 247, 239, 0.781);
+    color: rgb(177, 174, 174);
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: 'DistantGalaxy';
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  .accordion{
+    cursor: url(cursors/SABER.CUR), pointer;
+  }
+  .accordion:hover{
+    color: rgba(185, 30, 30, 0.849);
+    text-shadow: 1px 1px 5px rgb(236, 252, 16) ;
+  }
+  .active{
+    display: block !important;
+  }
+  .planetsContainer{
+    margin-left: 50px;
+    display: none;
+  }
+  .panel{
+    color: rgb(161, 32, 23);
+    font-size: 15px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
