@@ -42,7 +42,7 @@ function displayCharacters (characters){
             characterElement.className = 'character';
             let characterId;
             let gender;
-            res.data.url.length === 30 ? characterId = res.data.url.slice(28, 29) : characterId = res.data.url.slice(28, 30);
+            `'https:' + ${res.data.url.length === 30 ? characterId = res.data.url.slice(28, 29) : characterId = res.data.url.slice(28, 30)};`
 
             
             if(res.data.gender === 'female') gender = String.fromCharCode(9792);
