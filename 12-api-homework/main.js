@@ -33,7 +33,9 @@ function displayCharacters (characters){
         const config = {
             method: "GET",
             url: character,
-            }
+            ['X-Requested-With']: 'XMLHttpRequest',
+            
+        }
         return axios(config)
         .then((res) => {
             const characterElement = document.createElement('div');
