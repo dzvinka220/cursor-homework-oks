@@ -30,12 +30,12 @@ function displayCharacters (characters){
     
     
     characters.forEach(character => {
+        const user = character.replace(/^http:\/\//i, 'https://');
         const config = {
             method: "GET",
-            url: character,
-            ['X-Requested-With']: 'XMLHttpRequest',
-            
+            url: user,
         }
+        
         return axios(config)
         .then((res) => {
             const characterElement = document.createElement('div');
